@@ -1,0 +1,43 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Library</h1>
+    <p>Search the scriptures below or <a href="/MyJournal">go to your notes</a>.</p>
+</div>
+
+<div class="scriptures">
+    <div class="books">
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/ot?lang=eng" title="Old Testament" target="_blank">
+            <img src="~/Images/scriptures_old_testament.png" />
+            <p>Old Testament</p>
+        </a>
+    </div>
+    <div class="books">
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/nt?lang=eng" title="New Testament" target="_blank">
+            <img src="~/Images/scriptures_new_testament.png" />
+            <p>New Testament</p>
+        </a>
+    </div>
+    <div class="books">
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm?lang=eng" title="Book of Mormon" target="_blank">
+            <img src="~/Images/scripture_cover_book_mormon.jpeg" />
+            <p>Book of Mormon</p>
+        </a>
+    </div>
+    <div class="books">
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament?lang=eng" title="Doctrine and Covenants" target="_blank">
+            <img src="~/Images/scriptures_doctrine_and_covenants.png" />
+            <p>Doctrine and Covenants</p>
+        </a>
+    </div>
+    <div class="books">
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/pgp?lang=eng" title="Pearl of Great Price" target="_blank">
+            <img src="~/Images/scriptures_pearl_of_great_price.png" />
+            <p>Pearl of Great Price</p>
+        </a>
+    </div>
+</div>
